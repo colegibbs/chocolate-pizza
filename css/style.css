@@ -1,0 +1,56 @@
+body {
+  width: 960px;
+  margin: auto;
+}
+
+header div{
+  display: flex;
+  justify-content: space-between;
+}
+
+#top {
+  display: flex;
+  flex-direction: column;
+}
+
+header section {
+  display:flex;
+}
+
+header h1 {
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+}
+
+main h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+}
+
+#date {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: lightgray;
+  padding: 10px;
+  display: inline-block;
+}
+
+#choco-pizza {
+  width: 100%;
+}
+
+figure {
+  float: right;
+  margin-top: 15px;
+  font-size: 10px;
+  display:flex;
+  color:lightgray;
+}
+
+.info {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 25px;
+  color: slategray;
+  text-indent: 30px;
+}
