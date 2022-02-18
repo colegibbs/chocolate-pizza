@@ -4,31 +4,87 @@
     <title>Chocolate Pizza</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <img src="img/logo.png" alt="logo">
-      <h1>Delicious</h1>
-      <p>The Best Food Blog On The Web</p>
-      <img src="img/fb-icon.png" alt="facebook icon">
-      <img src="img/twit-icon.png" alt="twitter icon">
-      <img src="img/gp-icon.png" alt="google icon">
-      <img src="img/insta-icon.png" alt="instagram icon">
-      <img src="img/flic-icon.png" alt="flic icon">
-      <img src="img/pint-icon.png" alt="pintrist icon">
-      <img src="img/rss-icon.png" alt="wifi icon">
-      <img src="img/mail-icon.png" alt="email icon">
+      <div>
+        <section>
+          <img src="img/logo.png" alt="logo" id="logo">
+          <div id="top">
+            <h1>Delicious</h1>
+            <p>The Best Food Blog On The Web</p>
+          </div>
+        </section>
+        <div>
+          <img src="img/fb-icon.png" alt="facebook icon">
+          <img src="img/twit-icon.png" alt="twitter icon">
+          <img src="img/gp-icon.png" alt="google icon">
+          <img src="img/insta-icon.png" alt="instagram icon">
+          <img src="img/flic-icon.png" alt="flic icon">
+          <img src="img/pint-icon.png" alt="pintrist icon">
+          <img src="img/rss-icon.png" alt="wifi icon">
+          <img src="img/mail-icon.png" alt="email icon">
+        </div>
+      </div>
       <img src="img/hr-img.png" alt="line">
     </header>
     <main>
       <h1>Chocolate Pizza</h1>
-      <p>Posted on 15 Dec</p>
-      <img src="img/print-icon.png" alt="printer icon">
-      <img src="img/choco-pizza.png" alt="chocolate pizza">
-      <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
-      <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
-      <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instruction, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pytex dish or glass tupperware. Freeze for at least two hear before serving.</p>
+      <p id="date">Posted on 15 Dec</p>
+      <figure>
+        <img src="img/print-icon.png" alt="printer icon">
+        <figcaption>PRINT</figcaption>
+      </figure>
+      <img src="img/choco-pizza.png" alt="chocolate pizza" id="choco-pizza">
+      <p class="info">For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+      <p class="info">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
+      <p class="info">Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instruction, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pytex dish or glass tupperware. Freeze for at least two hear before serving.</p>
       <img src="img/list-bg.png" alt="paper background">
+      <form id="ing">
+        <fieldset>
+          <label>1 1/2 Cups Milk
+            <input type="checkbox">
+          </label>
+          <label>1/2 Mascarpone
+            <input type="checkbox">
+          </label>
+          <label>Teaspoon Pink Salt
+            <input type="checkbox">
+          </label>
+          <label>1 Pound Black Mission Figs
+            <input type="checkbox">
+          </label>
+          <label>1/2 Cup Brown Sugar
+            <input type="checkbox">
+          </label>
+          <label>2 to Tbsp Water
+            <input type="checkbox">
+          </label>
+          <label>1 1/2 Cups Heavy cream
+            <input type="checkbox">
+          </label>
+          <label>1/3 Granulated Sugar
+            <input type="checkbox">
+          </label>
+          <label>2 Egg Yoks
+            <input type="checkbox">
+          </label>
+          <label>1 Lemon, Juiced
+            <input type="checkbox">
+          </label>
+          <label>2 Tbsp Butter
+            <input type="checkbox">
+          </label>
+          <label>1 Cup Honey Roasted Pecans, Roughly Chopped
+            <input type="checkbox">
+          </label>
+        </fieldset>
+      </form>
       <img src="img/hr-img.png" alt="line">
       <img src="img/van-pic.png" alt="headshot">
       <h3>Vanessa Stevenson</h3>
